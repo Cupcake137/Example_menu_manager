@@ -39,7 +39,7 @@ void sua_thong_tin_sv(Sinhvien SV[], Diemthi point[], int n) {
 		printf("Diem toan cu: %.2f. Diem toan moi can sua cua sv[%d]: ", point[index].toan, msv);
 		scanf("%f", &point[index].toan);
 		
-		printf("Diem ly cu: %2.f. Diem ly moi can sua cua sv[%d]: ", point[index].ly, msv);
+		printf("Diem ly cu: %.2f. Diem ly moi can sua cua sv[%d]: ", point[index].ly, msv);
 		scanf("%f", &point[index].ly);
 		
 		printf("Diem hoa cu: %.2f. Diem hoa moi can sua cua sv[%d]: ", point[index].hoa, msv);
@@ -245,3 +245,4 @@ void menu_program(int choice) {
         }
     } while (choice != 0);
 }
+
